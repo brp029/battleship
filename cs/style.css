@@ -1,0 +1,35 @@
+/* CSS Document */
+@charset "UTF-8";
+
+body {
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #efefef;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1.5em;
+  color: #0B6BBF;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: .3em;
+  margin-left: 2em;
+  font-size: 1.4em;
+  color: #1DA1F2;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #D90D0D;
+  text-align: center;
+}
+
+p {
+  margin-left: 2.1em;
+  margin-top: 1em;
+  font-size: 1.3em;
+  color: #333333;
+}
