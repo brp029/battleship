@@ -4,13 +4,13 @@
 body {
   padding: 0;
   font-family: "Open Sans Condensed", sans-serif;
-  background-color: #efefef;
+  background-color: #979DA6;
 }
 
 h1 {
   text-align: center;
   margin-top: 1.5em;
-  color: #0B6BBF;
+  color: #074DD9;
   font-weight: bold;
 }
 
@@ -32,4 +32,29 @@ p {
   margin-top: 1em;
   font-size: 1.3em;
   color: #333333;
+}
+
+#gameboard {
+	margin: 2em 0em;
+}
+
+.boxes {
+	border: thin black solid;
+	display: inline-block;
+	width: 16.6%;
+	height: 50px;
+	margin: -4px 0;
+	background-color: #074DD9;
+}
+
+#guessCount {
+	display: inline;
+}
+
+.hit {
+	background-color: #730E0E;
+}
+
+.miss {
+	background-color: #253540;
 }
