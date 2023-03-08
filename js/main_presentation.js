@@ -160,7 +160,7 @@ if (sunkCheck == true) {
 		alert("You sunk my " + shipID + "!");
 	}
 	 else {
-		//alert("That's a hit!");
+		alert("That's a hit!");
 	}
   }
 }
