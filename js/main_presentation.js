@@ -78,11 +78,11 @@ function updateSolution(ship) {
 		
 	}	
 	
-	console.log(locStr);
+	//console.log(locStr);
 	var locArr = locStr.split(",");
 	var myShip = {"shipName": ships, "shipLoc": locArr};
 	shipList.push(myShip);
-	console.log("ShipList: " + shipList);
+	//console.log("ShipList: " + shipList);
 } //end updateSolution
 
 function checkHit(){
@@ -106,7 +106,7 @@ function checkHit(){
 	} else {
 		this.classList.add("miss"); // if miss, turn square dark grey
 		getStatus();
-		alert("That's a miss. Try again!")
+		//alert("That's a miss. Try again!")
 	}
 		
 
@@ -130,9 +130,9 @@ function getStatus() {
 	{gameStatus.push(obj.innerHTML=='&nbsp;'?'-':obj.innerHTML)})
 	
 	var arr1 = gameStatus.toString();
-	console.log("gameStatus: " + arr1);
+	//console.log("gameStatus: " + arr1);
 	var arr2 = placementArray.toString();
-	console.log("placementArray: " + arr2);
+	//console.log("placementArray: " + arr2);
 	
 	if (arr1 === arr2) {
 		alert("You win!");
@@ -144,8 +144,8 @@ function checkSunk(placedShip) {
 	var shipSpots = placedShip.shipLoc;
 	var checkID = parseInt(sqID);
 	
-	console.log("shipID: " + shipID + ", ship spots: " + shipSpots + ", checkID: " + checkID);
-	console.log("hitList: " + hitList);
+	//console.log("shipID: " + shipID + ", ship spots: " + shipSpots + ", checkID: " + checkID);
+	//console.log("hitList: " + hitList);
 	
 	if (shipSpots.includes(sqID)){
 	
@@ -160,7 +160,7 @@ if (sunkCheck == true) {
 		alert("You sunk my " + shipID + "!");
 	}
 	 else {
-		alert("That's a hit!");
+		//alert("That's a hit!");
 	}
   }
 }
