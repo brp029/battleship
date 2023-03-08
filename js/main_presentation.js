@@ -9,10 +9,10 @@ window.onload = function() {
 } //end window.onload
 
 var placement = 
-	[{ "name": "ship1", "orientation": "vertical", "size": 4, "coords": [2, 3] },
-	 { "name": "ship2", "orientation": "horizontal", "size": 3, "coords": [3, 3] },
-	 { "name": "ship3", "orientation": "horizontal", "size": 3, "coords": [3, 1] },
-	 { "name": "ship4", "orientation": "vertical", "size": 2, "coords": [1, 5] }];
+	[{ "name": "Battleship", "orientation": "vertical", "size": 4, "coords": [2, 3] },
+	 { "name": "Cruiser", "orientation": "horizontal", "size": 3, "coords": [3, 3] },
+	 { "name": "Submarine", "orientation": "horizontal", "size": 3, "coords": [3, 1] },
+	 { "name": "Destroyer", "orientation": "vertical", "size": 2, "coords": [1, 5] }];
 
 console.log(placement);
 
